@@ -15,7 +15,7 @@ class LoginController extends Controller{
         $username = $_REQUEST["username"];
         $password = $_REQUEST["password"];
         
-        if($username == "asu" && $password == "tenanan"){
+        if($username == "admin" && $password == "admin"){
             return "Masuk Dab!!";
         }else{
             return "Gak Boleh Masuk Dab!!";
