@@ -16,7 +16,7 @@ class LoginController extends Controller{
         $password = $_REQUEST["password"];
         
         if($username == "admin" && $password == "admin"){
-            return "Masuk Dab!!";
+             return redirect('/');
         }else{
             return "Gak Boleh Masuk Dab!!";
         }
