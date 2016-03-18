@@ -15,6 +15,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/**
+ * Login
+ */
+Route::get("login",'LoginController@showLogin');
+Route::post("login",'LoginController@processLogin');
+
+/**
+ * CheckVersion
+ */
+Route::get("version","VersionController@version");
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
