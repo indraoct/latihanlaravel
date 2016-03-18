@@ -1,6 +1,6 @@
-@extends('layouts.master')
+@extends('layouts.login')
 
-@section('title', 'Page Title')
+@section('title', 'Login Page')
 
 @section('sidebar')
     @parent
